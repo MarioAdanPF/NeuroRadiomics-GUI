@@ -1,0 +1,1163 @@
+{
+  "formato": "neuroradiomics-modelo",
+  "version": 1,
+  "comparativa": "2Y_vs_Ctrl",
+  "variante": "completo",
+  "descripcion": "2Y vs Ctrl, modelo final con todas las variables que conserva Lasso",
+  "umbral": 0.47,
+  "regiones": [
+    2,
+    4,
+    5,
+    7,
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    24,
+    26,
+    28,
+    31,
+    41,
+    43,
+    44,
+    46,
+    47,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    58,
+    60,
+    63,
+    77,
+    85,
+    251,
+    252,
+    253,
+    254,
+    255,
+    1001,
+    1002,
+    1003,
+    1005,
+    1006,
+    1007,
+    1008,
+    1009,
+    1010,
+    1011,
+    1012,
+    1013,
+    1014,
+    1015,
+    1016,
+    1017,
+    1018,
+    1019,
+    1020,
+    1021,
+    1022,
+    1023,
+    1024,
+    1025,
+    1026,
+    1027,
+    1028,
+    1029,
+    1030,
+    1031,
+    1032,
+    1033,
+    1034,
+    1035,
+    2001,
+    2002,
+    2003,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026,
+    2027,
+    2028,
+    2029,
+    2030,
+    2031,
+    2032,
+    2033,
+    2034,
+    2035
+  ],
+  "metricas_tamano": [
+    "shape_MeshVolume",
+    "shape_VoxelVolume",
+    "shape_SurfaceArea"
+  ],
+  "covariables": [
+    {
+      "nombre": "Edad",
+      "media": 71.45098039215686
+    },
+    {
+      "nombre": "Sexo_F",
+      "media": 0.39215686274509803
+    }
+  ],
+  "rendimiento": {},
+  "intercepto": -0.14742814955105907,
+  "variables": [
+    {
+      "columna": "Label_1001_original_shape_Elongation",
+      "label": 1001,
+      "region": "Banco del surco temporal superior izq.",
+      "descriptor": "Elongación",
+      "ajuste": {
+        "Edad": 0.0010224601969334038,
+        "Sexo_F": 0.03753248972548552
+      },
+      "centro": 0.6590689431239614,
+      "escala": 0.13623597060657022,
+      "peso": -0.11449655905548763
+    },
+    {
+      "columna": "Label_1006_original_shape_Flatness",
+      "label": 1006,
+      "region": "Corteza entorrinal izq.",
+      "descriptor": "Aplanamiento",
+      "ajuste": {
+        "Edad": -0.0007367384988103561,
+        "Sexo_F": -0.029761772932161763
+      },
+      "centro": 0.4294603624954654,
+      "escala": 0.11352248492777905,
+      "peso": -0.07791919286102297
+    },
+    {
+      "columna": "Label_1007_original_shape_MajorAxisLength",
+      "label": 1007,
+      "region": "Giro fusiforme izq.",
+      "descriptor": "Longitud del eje mayor",
+      "ajuste": {
+        "Edad": 0.01607310958837274,
+        "Sexo_F": -3.8150791426238717
+      },
+      "centro": 92.63638855306,
+      "escala": 10.55562702204169,
+      "peso": -0.0654684522241064
+    },
+    {
+      "columna": "Label_1007_original_shape_Maximum2DDiameterRow",
+      "label": 1007,
+      "region": "Giro fusiforme izq.",
+      "descriptor": "Diámetro 2D máximo (plano columna-corte)",
+      "ajuste": {
+        "Edad": -0.05165921894112052,
+        "Sexo_F": -3.7634351521272857
+      },
+      "centro": 88.87696816960936,
+      "escala": 7.59150464757829,
+      "peso": -0.07698918139776954
+    },
+    {
+      "columna": "Label_1008_original_shape_SurfaceVolumeRatio",
+      "label": 1008,
+      "region": "Parietal inferior izq.",
+      "descriptor": "Razón superficie/volumen",
+      "ajuste": {
+        "Edad": 0.0020050772768591086,
+        "Sexo_F": -0.022702774035445177
+      },
+      "centro": 0.9993855322532406,
+      "escala": 0.095093576204487,
+      "peso": 0.1633030453404972
+    },
+    {
+      "columna": "Label_1009_original_shape_SurfaceVolumeRatio",
+      "label": 1009,
+      "region": "Temporal inferior izq.",
+      "descriptor": "Razón superficie/volumen",
+      "ajuste": {
+        "Edad": 0.001194263628582675,
+        "Sexo_F": 0.009784962242577867
+      },
+      "centro": 0.8613888571333259,
+      "escala": 0.06721565570442478,
+      "peso": 0.10840980351802003
+    },
+    {
+      "columna": "Label_1012_original_shape_MinorAxisLength",
+      "label": 1012,
+      "region": "Orbitofrontal lateral izq.",
+      "descriptor": "Longitud del eje intermedio",
+      "ajuste": {
+        "Edad": -0.06190122896635042,
+        "Sexo_F": -1.2929665774722545
+      },
+      "centro": 32.540256628980586,
+      "escala": 3.068781518848674,
+      "peso": -0.05770152322679585
+    },
+    {
+      "columna": "Label_1014_original_shape_Maximum3DDiameter",
+      "label": 1014,
+      "region": "Orbitofrontal medial izq.",
+      "descriptor": "Diámetro 3D máximo",
+      "ajuste": {
+        "Edad": -0.09088910863073063,
+        "Sexo_F": -3.971044836375346
+      },
+      "centro": 65.34699712503772,
+      "escala": 4.47964376685961,
+      "peso": 0.06951702467428528
+    },
+    {
+      "columna": "Label_1015_original_shape_LeastAxisLength",
+      "label": 1015,
+      "region": "Temporal medio izq.",
+      "descriptor": "Longitud del eje menor",
+      "ajuste": {
+        "Edad": -0.07997737644262352,
+        "Sexo_F": -0.46495996553450597
+      },
+      "centro": 18.059782490189793,
+      "escala": 2.1926041191515537,
+      "peso": -0.11602072999745547
+    },
+    {
+      "columna": "Label_1015_original_shape_MeshVolume",
+      "label": 1015,
+      "region": "Temporal medio izq.",
+      "descriptor": "Volumen (malla)",
+      "ajuste": {
+        "Edad": -2.0385413636425613e-05,
+        "Sexo_F": 0.00028626290664641123
+      },
+      "centro": 0.008610928888124633,
+      "escala": 0.0014918291815837967,
+      "peso": -0.14959577710709476
+    },
+    {
+      "columna": "Label_1015_original_shape_SurfaceVolumeRatio",
+      "label": 1015,
+      "region": "Temporal medio izq.",
+      "descriptor": "Razón superficie/volumen",
+      "ajuste": {
+        "Edad": 0.001526859257834428,
+        "Sexo_F": 7.092014249373544e-05
+      },
+      "centro": 0.8770715261511337,
+      "escala": 0.06825595767854442,
+      "peso": 0.16036849153723406
+    },
+    {
+      "columna": "Label_1017_original_shape_Maximum2DDiameterSlice",
+      "label": 1017,
+      "region": "Lóbulo paracentral izq.",
+      "descriptor": "Diámetro 2D máximo (plano fila-columna)",
+      "ajuste": {
+        "Edad": -0.0030324045560078464,
+        "Sexo_F": -0.9452989884529465
+      },
+      "centro": 36.96294107024656,
+      "escala": 4.177972151838588,
+      "peso": -0.045403378420773056
+    },
+    {
+      "columna": "Label_1022_original_shape_Maximum2DDiameterRow",
+      "label": 1022,
+      "region": "Giro poscentral izq.",
+      "descriptor": "Diámetro 2D máximo (plano columna-corte)",
+      "ajuste": {
+        "Edad": -0.05300035604594491,
+        "Sexo_F": -1.7611598369522186
+      },
+      "centro": 55.99761512517486,
+      "escala": 4.918456978264501,
+      "peso": -0.06068326320859275
+    },
+    {
+      "columna": "Label_1022_original_shape_Maximum2DDiameterSlice",
+      "label": 1022,
+      "region": "Giro poscentral izq.",
+      "descriptor": "Diámetro 2D máximo (plano fila-columna)",
+      "ajuste": {
+        "Edad": -0.2015204253443721,
+        "Sexo_F": -0.5115327540442036
+      },
+      "centro": 41.28885403391952,
+      "escala": 8.922670923634726,
+      "peso": -0.05214006244504782
+    },
+    {
+      "columna": "Label_1024_original_shape_Maximum2DDiameterRow",
+      "label": 1024,
+      "region": "Giro precentral izq.",
+      "descriptor": "Diámetro 2D máximo (plano columna-corte)",
+      "ajuste": {
+        "Edad": -0.10408244856782622,
+        "Sexo_F": -2.0009548707774996
+      },
+      "centro": 57.382376777651515,
+      "escala": 5.576314210774797,
+      "peso": 0.06588555252117702
+    },
+    {
+      "columna": "Label_1024_original_shape_MinorAxisLength",
+      "label": 1024,
+      "region": "Giro precentral izq.",
+      "descriptor": "Longitud del eje intermedio",
+      "ajuste": {
+        "Edad": 0.009899523232006012,
+        "Sexo_F": -0.9730116030720092
+      },
+      "centro": 30.95774819917548,
+      "escala": 2.7034156109368013,
+      "peso": 0.09048388455392524
+    },
+    {
+      "columna": "Label_1026_original_shape_Elongation",
+      "label": 1026,
+      "region": "Cíngulo anterior rostral izq.",
+      "descriptor": "Elongación",
+      "ajuste": {
+        "Edad": 0.0007340513156641366,
+        "Sexo_F": -0.01373154319897476
+      },
+      "centro": 0.6635910925314673,
+      "escala": 0.1278378016539159,
+      "peso": 0.0847122677568124
+    },
+    {
+      "columna": "Label_1032_original_shape_Maximum2DDiameterColumn",
+      "label": 1032,
+      "region": "Polo frontal izq.",
+      "descriptor": "Diámetro 2D máximo (plano fila-corte)",
+      "ajuste": {
+        "Edad": -0.021577495107866808,
+        "Sexo_F": -0.2302511164096339
+      },
+      "centro": 17.027232722384447,
+      "escala": 2.6803368554529996,
+      "peso": 0.031481669907155695
+    },
+    {
+      "columna": "Label_1033_original_shape_Flatness",
+      "label": 1033,
+      "region": "Polo temporal izq.",
+      "descriptor": "Aplanamiento",
+      "ajuste": {
+        "Edad": 0.0004864598645363122,
+        "Sexo_F": -0.009271922292524049
+      },
+      "centro": 0.5394111202642966,
+      "escala": 0.0936973525214867,
+      "peso": 0.07672091354897953
+    },
+    {
+      "columna": "Label_1034_original_shape_Elongation",
+      "label": 1034,
+      "region": "Temporal transverso izq.",
+      "descriptor": "Elongación",
+      "ajuste": {
+        "Edad": 0.0010301826211153164,
+        "Sexo_F": -0.0047443963977136
+      },
+      "centro": 0.41057264055879594,
+      "escala": 0.10683336934760157,
+      "peso": -0.03928088023939984
+    },
+    {
+      "columna": "Label_1034_original_shape_Maximum2DDiameterSlice",
+      "label": 1034,
+      "region": "Temporal transverso izq.",
+      "descriptor": "Diámetro 2D máximo (plano fila-columna)",
+      "ajuste": {
+        "Edad": 0.009808100267429681,
+        "Sexo_F": 0.04773739177168077
+      },
+      "centro": 16.189822804504733,
+      "escala": 3.628088945398087,
+      "peso": -0.028210605575312662
+    },
+    {
+      "columna": "Label_1035_original_shape_Flatness",
+      "label": 1035,
+      "region": "Ínsula izq.",
+      "descriptor": "Aplanamiento",
+      "ajuste": {
+        "Edad": -0.0014713872544366683,
+        "Sexo_F": 0.017908506786339845
+      },
+      "centro": 0.2882101169649536,
+      "escala": 0.055732896702427426,
+      "peso": -0.05808447018313739
+    },
+    {
+      "columna": "Label_12_original_shape_Flatness",
+      "label": 12,
+      "region": "Putamen izq.",
+      "descriptor": "Aplanamiento",
+      "ajuste": {
+        "Edad": -0.0013266002161777925,
+        "Sexo_F": 0.006390270805097044
+      },
+      "centro": 0.28828396874390305,
+      "escala": 0.03308827266026243,
+      "peso": -0.08498387240809836
+    },
+    {
+      "columna": "Label_13_original_shape_Elongation",
+      "label": 13,
+      "region": "Globo pálido izq.",
+      "descriptor": "Elongación",
+      "ajuste": {
+        "Edad": 0.00013751129095261925,
+        "Sexo_F": 0.005458613589216149
+      },
+      "centro": 0.48938847239448724,
+      "escala": 0.04935790055000927,
+      "peso": 0.04595746366967527
+    },
+    {
+      "columna": "Label_13_original_shape_Flatness",
+      "label": 13,
+      "region": "Globo pálido izq.",
+      "descriptor": "Aplanamiento",
+      "ajuste": {
+        "Edad": -0.0002802072064463967,
+        "Sexo_F": 0.00416444957744413
+      },
+      "centro": 0.3403708255688187,
+      "escala": 0.0326518583579965,
+      "peso": 0.06594281847988963
+    },
+    {
+      "columna": "Label_15_original_shape_Elongation",
+      "label": 15,
+      "region": "Cuarto ventrículo",
+      "descriptor": "Elongación",
+      "ajuste": {
+        "Edad": 0.002056060974299084,
+        "Sexo_F": 0.0003560286317630088
+      },
+      "centro": 0.47492513756392896,
+      "escala": 0.1276412111049698,
+      "peso": -0.07365727952375581
+    },
+    {
+      "columna": "Label_15_original_shape_Maximum2DDiameterColumn",
+      "label": 15,
+      "region": "Cuarto ventrículo",
+      "descriptor": "Diámetro 2D máximo (plano fila-corte)",
+      "ajuste": {
+        "Edad": 0.09166810680783215,
+        "Sexo_F": -1.0233677815435154
+      },
+      "centro": 19.086510877116606,
+      "escala": 3.989433335050755,
+      "peso": -0.1029324325730005
+    },
+    {
+      "columna": "Label_15_original_shape_Maximum2DDiameterSlice",
+      "label": 15,
+      "region": "Cuarto ventrículo",
+      "descriptor": "Diámetro 2D máximo (plano fila-columna)",
+      "ajuste": {
+        "Edad": 0.0685033395543662,
+        "Sexo_F": -1.9579185283294287
+      },
+      "centro": 36.717149634966496,
+      "escala": 8.024168609591456,
+      "peso": 0.04024998626663655
+    },
+    {
+      "columna": "Label_16_original_shape_MeshVolume",
+      "label": 16,
+      "region": "Tronco encefálico",
+      "descriptor": "Volumen (malla)",
+      "ajuste": {
+        "Edad": -5.534345240886506e-06,
+        "Sexo_F": -0.00019889708306192031
+      },
+      "centro": 0.01862488404149083,
+      "escala": 0.0021189184868350593,
+      "peso": 0.06512075438025836
+    },
+    {
+      "columna": "Label_17_original_shape_Maximum2DDiameterSlice",
+      "label": 17,
+      "region": "Hipocampo izq.",
+      "descriptor": "Diámetro 2D máximo (plano fila-columna)",
+      "ajuste": {
+        "Edad": -0.06621285284025241,
+        "Sexo_F": -0.7616729564856357
+      },
+      "centro": 22.153151905257317,
+      "escala": 2.349928979097328,
+      "peso": -0.09200740296634373
+    },
+    {
+      "columna": "Label_17_original_shape_Sphericity",
+      "label": 17,
+      "region": "Hipocampo izq.",
+      "descriptor": "Esfericidad",
+      "ajuste": {
+        "Edad": -0.0006032146793792806,
+        "Sexo_F": -0.0005311351917898384
+      },
+      "centro": 0.4982776681491931,
+      "escala": 0.025581136683981875,
+      "peso": -0.14865420586501396
+    },
+    {
+      "columna": "Label_18_original_shape_Maximum2DDiameterColumn",
+      "label": 18,
+      "region": "Amígdala izq.",
+      "descriptor": "Diámetro 2D máximo (plano fila-corte)",
+      "ajuste": {
+        "Edad": -0.0264029198045168,
+        "Sexo_F": -0.05061809469101673
+      },
+      "centro": 19.04627755410717,
+      "escala": 2.4575174912747855,
+      "peso": -0.11973049093269365
+    },
+    {
+      "columna": "Label_2001_original_shape_Elongation",
+      "label": 2001,
+      "region": "Banco del surco temporal superior der.",
+      "descriptor": "Elongación",
+      "ajuste": {
+        "Edad": -0.000496432670188706,
+        "Sexo_F": 0.0010499929627467292
+      },
+      "centro": 0.8454835144687367,
+      "escala": 0.10763268533412385,
+      "peso": 0.06063794105964056
+    },
+    {
+      "columna": "Label_2003_original_shape_Maximum2DDiameterColumn",
+      "label": 2003,
+      "region": "Frontal medio caudal der.",
+      "descriptor": "Diámetro 2D máximo (plano fila-corte)",
+      "ajuste": {
+        "Edad": 0.04677282134818068,
+        "Sexo_F": -0.9519551351486517
+      },
+      "centro": 36.734387758601514,
+      "escala": 5.779996247914184,
+      "peso": -0.060871171171889706
+    },
+    {
+      "columna": "Label_2003_original_shape_Maximum2DDiameterRow",
+      "label": 2003,
+      "region": "Frontal medio caudal der.",
+      "descriptor": "Diámetro 2D máximo (plano columna-corte)",
+      "ajuste": {
+        "Edad": 0.027186569459051277,
+        "Sexo_F": -1.985487786422896
+      },
+      "centro": 37.45361948827731,
+      "escala": 4.614356401173872,
+      "peso": -0.08040853643211075
+    },
+    {
+      "columna": "Label_2003_original_shape_MeshVolume",
+      "label": 2003,
+      "region": "Frontal medio caudal der.",
+      "descriptor": "Volumen (malla)",
+      "ajuste": {
+        "Edad": 1.9978057074023144e-05,
+        "Sexo_F": 0.000299741900898789
+      },
+      "centro": 0.004470050037963833,
+      "escala": 0.0009318096345779245,
+      "peso": -0.09436861207592652
+    },
+    {
+      "columna": "Label_2006_original_shape_Flatness",
+      "label": 2006,
+      "region": "Corteza entorrinal der.",
+      "descriptor": "Aplanamiento",
+      "ajuste": {
+        "Edad": -0.001154965082850061,
+        "Sexo_F": -0.024939823649301158
+      },
+      "centro": 0.3699514364874738,
+      "escala": 0.0906547489882299,
+      "peso": -0.038738012662680316
+    },
+    {
+      "columna": "Label_2006_original_shape_Maximum2DDiameterSlice",
+      "label": 2006,
+      "region": "Corteza entorrinal der.",
+      "descriptor": "Diámetro 2D máximo (plano fila-columna)",
+      "ajuste": {
+        "Edad": -0.00029509589852188406,
+        "Sexo_F": -0.8749493935220155
+      },
+      "centro": 20.59362407635716,
+      "escala": 3.013960317092394,
+      "peso": -0.05184434419003928
+    },
+    {
+      "columna": "Label_2006_original_shape_MeshVolume",
+      "label": 2006,
+      "region": "Corteza entorrinal der.",
+      "descriptor": "Volumen (malla)",
+      "ajuste": {
+        "Edad": -2.422508377548537e-06,
+        "Sexo_F": 1.0432901157848317e-05
+      },
+      "centro": 0.0014747124583649968,
+      "escala": 0.0004906433870151801,
+      "peso": -0.060743172460149424
+    },
+    {
+      "columna": "Label_2006_original_shape_SurfaceVolumeRatio",
+      "label": 2006,
+      "region": "Corteza entorrinal der.",
+      "descriptor": "Razón superficie/volumen",
+      "ajuste": {
+        "Edad": 0.004775447480722865,
+        "Sexo_F": 0.01073321487364139
+      },
+      "centro": 0.9007670337150071,
+      "escala": 0.14365979943941465,
+      "peso": 0.0934091637188993
+    },
+    {
+      "columna": "Label_2009_original_shape_LeastAxisLength",
+      "label": 2009,
+      "region": "Temporal inferior der.",
+      "descriptor": "Longitud del eje menor",
+      "ajuste": {
+        "Edad": 0.0028303059865742858,
+        "Sexo_F": -0.7894869067322866
+      },
+      "centro": 15.960369641334903,
+      "escala": 1.6522427842612082,
+      "peso": -0.08310244224123094
+    },
+    {
+      "columna": "Label_2016_original_shape_Maximum2DDiameterSlice",
+      "label": 2016,
+      "region": "Giro parahipocampal der.",
+      "descriptor": "Diámetro 2D máximo (plano fila-columna)",
+      "ajuste": {
+        "Edad": -0.008664938263583383,
+        "Sexo_F": 0.26213571484325165
+      },
+      "centro": 23.315474214994914,
+      "escala": 2.340325496312076,
+      "peso": 0.04886725146501521
+    },
+    {
+      "columna": "Label_2018_original_shape_Elongation",
+      "label": 2018,
+      "region": "Pars opercularis der.",
+      "descriptor": "Elongación",
+      "ajuste": {
+        "Edad": -0.0002448020881184509,
+        "Sexo_F": 0.01819976587681426
+      },
+      "centro": 0.7910611542104462,
+      "escala": 0.12067482870514179,
+      "peso": -0.05631308426011545
+    },
+    {
+      "columna": "Label_2018_original_shape_MinorAxisLength",
+      "label": 2018,
+      "region": "Pars opercularis der.",
+      "descriptor": "Longitud del eje intermedio",
+      "ajuste": {
+        "Edad": -0.022124974464267984,
+        "Sexo_F": -0.4162899212420726
+      },
+      "centro": 24.81525944667259,
+      "escala": 2.6918637877948584,
+      "peso": -0.061803181967071005
+    },
+    {
+      "columna": "Label_2019_original_shape_Elongation",
+      "label": 2019,
+      "region": "Pars orbitalis der.",
+      "descriptor": "Elongación",
+      "ajuste": {
+        "Edad": 0.002460806560591796,
+        "Sexo_F": 0.023316709115781254
+      },
+      "centro": 0.5140706902933408,
+      "escala": 0.1038245585899562,
+      "peso": -0.0680365134399697
+    },
+    {
+      "columna": "Label_2021_original_shape_Sphericity",
+      "label": 2021,
+      "region": "Corteza pericalcarina der.",
+      "descriptor": "Esfericidad",
+      "ajuste": {
+        "Edad": -0.0004812881075983163,
+        "Sexo_F": 0.013115767503123843
+      },
+      "centro": 0.2507827282332261,
+      "escala": 0.030089948534798183,
+      "peso": -0.15028105291851424
+    },
+    {
+      "columna": "Label_2025_original_shape_Elongation",
+      "label": 2025,
+      "region": "Precúneo der.",
+      "descriptor": "Elongación",
+      "ajuste": {
+        "Edad": -0.0005136492925348716,
+        "Sexo_F": -0.0029205980496645207
+      },
+      "centro": 0.5646517979307252,
+      "escala": 0.08493502727847868,
+      "peso": -0.051673621609436435
+    },
+    {
+      "columna": "Label_2025_original_shape_Flatness",
+      "label": 2025,
+      "region": "Precúneo der.",
+      "descriptor": "Aplanamiento",
+      "ajuste": {
+        "Edad": 0.0004578744634146868,
+        "Sexo_F": -0.003953491648283415
+      },
+      "centro": 0.3680937009642785,
+      "escala": 0.05682120990457096,
+      "peso": -0.032090270861450845
+    },
+    {
+      "columna": "Label_2025_original_shape_SurfaceVolumeRatio",
+      "label": 2025,
+      "region": "Precúneo der.",
+      "descriptor": "Razón superficie/volumen",
+      "ajuste": {
+        "Edad": 0.0027349505284826447,
+        "Sexo_F": -0.016089114417869723
+      },
+      "centro": 1.0284705354638435,
+      "escala": 0.09813776949529907,
+      "peso": 0.18919729266330917
+    },
+    {
+      "columna": "Label_2027_original_shape_Flatness",
+      "label": 2027,
+      "region": "Frontal medio rostral der.",
+      "descriptor": "Aplanamiento",
+      "ajuste": {
+        "Edad": 0.0006590895130101613,
+        "Sexo_F": 0.010237166706028063
+      },
+      "centro": 0.2962467535190225,
+      "escala": 0.034454868405649874,
+      "peso": -0.08354516358488927
+    },
+    {
+      "columna": "Label_2027_original_shape_MajorAxisLength",
+      "label": 2027,
+      "region": "Frontal medio rostral der.",
+      "descriptor": "Longitud del eje mayor",
+      "ajuste": {
+        "Edad": -0.11724937941654962,
+        "Sexo_F": -4.201861611007474
+      },
+      "centro": 70.32051127495347,
+      "escala": 7.277635900247532,
+      "peso": 0.06895434502118626
+    },
+    {
+      "columna": "Label_2027_original_shape_SurfaceArea",
+      "label": 2027,
+      "region": "Frontal medio rostral der.",
+      "descriptor": "Área de superficie",
+      "ajuste": {
+        "Edad": -2.133854342459874e-05,
+        "Sexo_F": -0.0003144855032613233
+      },
+      "centro": 0.018596156328951497,
+      "escala": 0.0020672234719259774,
+      "peso": 0.05564359489935053
+    },
+    {
+      "columna": "Label_2033_original_shape_LeastAxisLength",
+      "label": 2033,
+      "region": "Polo temporal der.",
+      "descriptor": "Longitud del eje menor",
+      "ajuste": {
+        "Edad": 0.030133338244839155,
+        "Sexo_F": -0.1838518518142623
+      },
+      "centro": 11.661996717673627,
+      "escala": 1.4545308978738003,
+      "peso": -0.07193161484701505
+    },
+    {
+      "columna": "Label_2033_original_shape_Sphericity",
+      "label": 2033,
+      "region": "Polo temporal der.",
+      "descriptor": "Esfericidad",
+      "ajuste": {
+        "Edad": -0.0010121961964089398,
+        "Sexo_F": 0.005770535324157826
+      },
+      "centro": 0.4655806638262399,
+      "escala": 0.03368657598823149,
+      "peso": 0.0685378550343946
+    },
+    {
+      "columna": "Label_2033_original_shape_SurfaceVolumeRatio",
+      "label": 2033,
+      "region": "Polo temporal der.",
+      "descriptor": "Razón superficie/volumen",
+      "ajuste": {
+        "Edad": 0.0025964500671923274,
+        "Sexo_F": -0.0021398133770320175
+      },
+      "centro": 0.7717410403642853,
+      "escala": 0.08666542316850345,
+      "peso": -0.053718038076934434
+    },
+    {
+      "columna": "Label_251_original_shape_SurfaceVolumeRatio",
+      "label": 251,
+      "region": "Cuerpo calloso posterior",
+      "descriptor": "Razón superficie/volumen",
+      "ajuste": {
+        "Edad": 0.00480463946326571,
+        "Sexo_F": -0.000346903371144719
+      },
+      "centro": 0.7084284413668275,
+      "escala": 0.063907686163034,
+      "peso": -0.06979600582570336
+    },
+    {
+      "columna": "Label_252_original_shape_LeastAxisLength",
+      "label": 252,
+      "region": "Cuerpo calloso medio-posterior",
+      "descriptor": "Longitud del eje menor",
+      "ajuste": {
+        "Edad": -0.009978086033559515,
+        "Sexo_F": -0.0008173776164816745
+      },
+      "centro": 5.425876805157566,
+      "escala": 0.296932707506663,
+      "peso": 0.06528498289562598
+    },
+    {
+      "columna": "Label_253_original_shape_Maximum2DDiameterRow",
+      "label": 253,
+      "region": "Cuerpo calloso central",
+      "descriptor": "Diámetro 2D máximo (plano columna-corte)",
+      "ajuste": {
+        "Edad": -0.04236428471593161,
+        "Sexo_F": 0.17704731188479672
+      },
+      "centro": 17.196356290430792,
+      "escala": 2.147962619102323,
+      "peso": 0.044588621550797694
+    },
+    {
+      "columna": "Label_254_original_shape_Flatness",
+      "label": 254,
+      "region": "Cuerpo calloso medio-anterior",
+      "descriptor": "Aplanamiento",
+      "ajuste": {
+        "Edad": 0.0003030633443792067,
+        "Sexo_F": 0.002422686889924524
+      },
+      "centro": 0.2804231234797069,
+      "escala": 0.035846349222917184,
+      "peso": -0.06603703159213684
+    },
+    {
+      "columna": "Label_254_original_shape_SurfaceArea",
+      "label": 254,
+      "region": "Cuerpo calloso medio-anterior",
+      "descriptor": "Área de superficie",
+      "ajuste": {
+        "Edad": -3.7191952423489736e-06,
+        "Sexo_F": 4.842213585557443e-05
+      },
+      "centro": 0.0005726184686577023,
+      "escala": 9.645096276903462e-05,
+      "peso": 0.06645290584438564
+    },
+    {
+      "columna": "Label_26_original_shape_MajorAxisLength",
+      "label": 26,
+      "region": "Núcleo accumbens izq.",
+      "descriptor": "Longitud del eje mayor",
+      "ajuste": {
+        "Edad": -0.016206787605532555,
+        "Sexo_F": -0.41533350998469903
+      },
+      "centro": 14.725428027882213,
+      "escala": 1.8484327583874105,
+      "peso": -0.05394284947047737
+    },
+    {
+      "columna": "Label_2_original_shape_SurfaceArea",
+      "label": 2,
+      "region": "Sustancia blanca cerebral izq.",
+      "descriptor": "Área de superficie",
+      "ajuste": {
+        "Edad": -4.24448067500135e-05,
+        "Sexo_F": -0.0008671517776613578
+      },
+      "centro": 0.14041395933427986,
+      "escala": 0.003160380242458377,
+      "peso": -0.024155463073643274
+    },
+    {
+      "columna": "Label_31_original_shape_Flatness",
+      "label": 31,
+      "region": "Plexo coroideo izq.",
+      "descriptor": "Aplanamiento",
+      "ajuste": {
+        "Edad": 0.0005873209431620891,
+        "Sexo_F": -0.0009033840370521311
+      },
+      "centro": 0.11673726697406851,
+      "escala": 0.030206468390332364,
+      "peso": 0.11846385993716205
+    },
+    {
+      "columna": "Label_31_original_shape_Maximum2DDiameterRow",
+      "label": 31,
+      "region": "Plexo coroideo izq.",
+      "descriptor": "Diámetro 2D máximo (plano columna-corte)",
+      "ajuste": {
+        "Edad": 0.6868896083927033,
+        "Sexo_F": -3.168838790597737
+      },
+      "centro": 64.60847177239631,
+      "escala": 12.475907528599706,
+      "peso": 0.05838456711528483
+    },
+    {
+      "columna": "Label_44_original_shape_MeshVolume",
+      "label": 44,
+      "region": "Asta temporal del ventrículo lateral der.",
+      "descriptor": "Volumen (malla)",
+      "ajuste": {
+        "Edad": 2.79102277281686e-05,
+        "Sexo_F": -0.000109153848365958
+      },
+      "centro": 0.0006289975841355647,
+      "escala": 0.0005615048583662065,
+      "peso": 0.12277418458560929
+    },
+    {
+      "columna": "Label_44_original_shape_Sphericity",
+      "label": 44,
+      "region": "Asta temporal del ventrículo lateral der.",
+      "descriptor": "Esfericidad",
+      "ajuste": {
+        "Edad": 0.0001450451377582188,
+        "Sexo_F": 0.004050500096327803
+      },
+      "centro": 0.45736533046125194,
+      "escala": 0.06039246247816643,
+      "peso": 0.0799473451024767
+    },
+    {
+      "columna": "Label_49_original_shape_SurfaceArea",
+      "label": 49,
+      "region": "Tálamo der.",
+      "descriptor": "Área de superficie",
+      "ajuste": {
+        "Edad": -9.490973221246057e-06,
+        "Sexo_F": 6.84330427603701e-05
+      },
+      "centro": 0.0033360512785439197,
+      "escala": 0.00026135249347271827,
+      "peso": 0.06789716114240822
+    },
+    {
+      "columna": "Label_51_original_shape_Sphericity",
+      "label": 51,
+      "region": "Putamen der.",
+      "descriptor": "Esfericidad",
+      "ajuste": {
+        "Edad": -0.0006230365773241257,
+        "Sexo_F": 0.004040387633759801
+      },
+      "centro": 0.5762704904129885,
+      "escala": 0.02193904625905041,
+      "peso": -0.07219326938236695
+    },
+    {
+      "columna": "Label_52_original_shape_MeshVolume",
+      "label": 52,
+      "region": "Globo pálido der.",
+      "descriptor": "Volumen (malla)",
+      "ajuste": {
+        "Edad": 4.255161678818476e-08,
+        "Sexo_F": -1.8764401237094838e-05
+      },
+      "centro": 0.0016907939225344736,
+      "escala": 0.0002539147212456622,
+      "peso": 0.07130463259794474
+    },
+    {
+      "columna": "Label_53_original_shape_Sphericity",
+      "label": 53,
+      "region": "Hipocampo der.",
+      "descriptor": "Esfericidad",
+      "ajuste": {
+        "Edad": -0.0006458137488891127,
+        "Sexo_F": 0.0004257150036753155
+      },
+      "centro": 0.5021916377795079,
+      "escala": 0.028654874341054126,
+      "peso": -0.1267063964023801
+    },
+    {
+      "columna": "Label_53_original_shape_SurfaceVolumeRatio",
+      "label": 53,
+      "region": "Hipocampo der.",
+      "descriptor": "Razón superficie/volumen",
+      "ajuste": {
+        "Edad": 0.002455092906349411,
+        "Sexo_F": 0.01164333859565843
+      },
+      "centro": 0.6171720550462902,
+      "escala": 0.06237002071548192,
+      "peso": 0.1456042012940202
+    },
+    {
+      "columna": "Label_54_original_shape_Maximum2DDiameterSlice",
+      "label": 54,
+      "region": "Amígdala der.",
+      "descriptor": "Diámetro 2D máximo (plano fila-columna)",
+      "ajuste": {
+        "Edad": -0.04378799484310581,
+        "Sexo_F": 0.07088334654361335
+      },
+      "centro": 19.859115816615592,
+      "escala": 2.6706996183258553,
+      "peso": -0.10765700758753477
+    },
+    {
+      "columna": "Label_54_original_shape_SurfaceVolumeRatio",
+      "label": 54,
+      "region": "Amígdala der.",
+      "descriptor": "Razón superficie/volumen",
+      "ajuste": {
+        "Edad": 0.002635790145373167,
+        "Sexo_F": 0.012680329473305572
+      },
+      "centro": 0.6146737486478522,
+      "escala": 0.06510655015212741,
+      "peso": 0.109063426711216
+    },
+    {
+      "columna": "Label_5_original_shape_Maximum2DDiameterRow",
+      "label": 5,
+      "region": "Asta temporal del ventrículo lateral izq.",
+      "descriptor": "Diámetro 2D máximo (plano columna-corte)",
+      "ajuste": {
+        "Edad": 0.02833849800874791,
+        "Sexo_F": -1.8329711138232825
+      },
+      "centro": 37.181784940982524,
+      "escala": 4.125947300256563,
+      "peso": -0.04857421902169214
+    },
+    {
+      "columna": "Label_5_original_shape_Maximum2DDiameterSlice",
+      "label": 5,
+      "region": "Asta temporal del ventrículo lateral izq.",
+      "descriptor": "Diámetro 2D máximo (plano fila-columna)",
+      "ajuste": {
+        "Edad": 0.21527586029829143,
+        "Sexo_F": -1.237755312097181
+      },
+      "centro": 17.85327273586166,
+      "escala": 3.5925747972289983,
+      "peso": 0.06422154380130671
+    },
+    {
+      "columna": "Label_63_original_shape_MinorAxisLength",
+      "label": 63,
+      "region": "Plexo coroideo der.",
+      "descriptor": "Longitud del eje intermedio",
+      "ajuste": {
+        "Edad": 0.12184957868172097,
+        "Sexo_F": 1.2453876607540577
+      },
+      "centro": 27.79032788088697,
+      "escala": 7.196286776468025,
+      "peso": 0.07692703780589435
+    },
+    {
+      "columna": "Label_77_original_shape_MeshVolume",
+      "label": 77,
+      "region": "Hipointensidades de sustancia blanca",
+      "descriptor": "Volumen (malla)",
+      "ajuste": {
+        "Edad": 0.00022807218155073203,
+        "Sexo_F": 0.00010941465959829583
+      },
+      "centro": 0.0026792481368406295,
+      "escala": 0.0028916189653462867,
+      "peso": 0.05389454412648786
+    },
+    {
+      "columna": "Label_7_original_shape_MajorAxisLength",
+      "label": 7,
+      "region": "Sustancia blanca cerebelosa izq.",
+      "descriptor": "Longitud del eje mayor",
+      "ajuste": {
+        "Edad": -0.04440921263530208,
+        "Sexo_F": -1.0165179343938955
+      },
+      "centro": 41.56353116779265,
+      "escala": 2.6882186436603632,
+      "peso": 0.06525190947947952
+    },
+    {
+      "columna": "Label_85_original_shape_SurfaceVolumeRatio",
+      "label": 85,
+      "region": "Quiasma óptico",
+      "descriptor": "Razón superficie/volumen",
+      "ajuste": {
+        "Edad": 0.002448222279343018,
+        "Sexo_F": 0.020964971935458356
+      },
+      "centro": 1.524729935227429,
+      "escala": 0.20841338137414311,
+      "peso": -0.06021269857446156
+    }
+  ]
+}

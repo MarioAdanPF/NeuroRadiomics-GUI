@@ -1,0 +1,5 @@
+# Interfaz (Python 3.14)
+flet[desktop]==1.0.5
+numpy==2.5.5
+nibabel==5.5.0
+pillow==13.0.0

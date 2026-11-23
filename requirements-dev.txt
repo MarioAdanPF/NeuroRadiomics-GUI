@@ -1,0 +1,3 @@
+# Pruebas (en el entorno de la interfaz)
+-r requirements-ui.txt
+pytest==9.2.0

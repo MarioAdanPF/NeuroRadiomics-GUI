@@ -1,0 +1,4 @@
+# Backend de extracción (Python 3.9): PyRadiomics no publica paquetes para versiones más nuevas
+numpy==1.23.5
+pyradiomics==3.1.0
+simpleitk==2.5.3

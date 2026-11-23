@@ -1,0 +1,240 @@
+{
+  "formato": "neuroradiomics-modelo",
+  "version": 1,
+  "comparativa": "1Y_vs_Ctrl",
+  "variante": "completo",
+  "descripcion": "1Y vs Ctrl, modelo final con todas las variables que conserva Lasso",
+  "umbral": 0.51,
+  "regiones": [
+    2,
+    4,
+    5,
+    7,
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    24,
+    26,
+    28,
+    31,
+    41,
+    43,
+    44,
+    46,
+    47,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    58,
+    60,
+    63,
+    77,
+    85,
+    251,
+    252,
+    253,
+    254,
+    255,
+    1001,
+    1002,
+    1003,
+    1005,
+    1006,
+    1007,
+    1008,
+    1009,
+    1010,
+    1011,
+    1012,
+    1013,
+    1014,
+    1015,
+    1016,
+    1017,
+    1018,
+    1019,
+    1020,
+    1021,
+    1022,
+    1023,
+    1024,
+    1025,
+    1026,
+    1027,
+    1028,
+    1029,
+    1030,
+    1031,
+    1032,
+    1033,
+    1034,
+    1035,
+    2001,
+    2002,
+    2003,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026,
+    2027,
+    2028,
+    2029,
+    2030,
+    2031,
+    2032,
+    2033,
+    2034,
+    2035
+  ],
+  "metricas_tamano": [
+    "shape_MeshVolume",
+    "shape_VoxelVolume",
+    "shape_SurfaceArea"
+  ],
+  "covariables": [
+    {
+      "nombre": "Edad",
+      "media": 71.45098039215686
+    },
+    {
+      "nombre": "Sexo_F",
+      "media": 0.39215686274509803
+    }
+  ],
+  "rendimiento": {},
+  "intercepto": 0.0059000581040274435,
+  "variables": [
+    {
+      "columna": "Label_1008_original_shape_SurfaceVolumeRatio",
+      "label": 1008,
+      "region": "Parietal inferior izq.",
+      "descriptor": "Razón superficie/volumen",
+      "ajuste": {
+        "Edad": 0.0020050772768591086,
+        "Sexo_F": -0.022702774035445177
+      },
+      "centro": 1.0159863078723186,
+      "escala": 0.11508471199012016,
+      "peso": 0.6479997499422951
+    },
+    {
+      "columna": "Label_1015_original_shape_MeshVolume",
+      "label": 1015,
+      "region": "Temporal medio izq.",
+      "descriptor": "Volumen (malla)",
+      "ajuste": {
+        "Edad": -2.0385413636425613e-05,
+        "Sexo_F": 0.00028626290664641123
+      },
+      "centro": 0.008485687777332822,
+      "escala": 0.0016002453357739288,
+      "peso": -0.7225145235748736
+    },
+    {
+      "columna": "Label_1015_original_shape_SurfaceVolumeRatio",
+      "label": 1015,
+      "region": "Temporal medio izq.",
+      "descriptor": "Razón superficie/volumen",
+      "ajuste": {
+        "Edad": 0.001526859257834428,
+        "Sexo_F": 7.092014249373544e-05
+      },
+      "centro": 0.8868153872790959,
+      "escala": 0.08866824989540811,
+      "peso": 0.3619428180904103
+    },
+    {
+      "columna": "Label_1025_original_shape_SurfaceVolumeRatio",
+      "label": 1025,
+      "region": "Precúneo izq.",
+      "descriptor": "Razón superficie/volumen",
+      "ajuste": {
+        "Edad": 0.0018957834092708777,
+        "Sexo_F": -0.005111467734555469
+      },
+      "centro": 1.0414496418021544,
+      "escala": 0.11037295850744677,
+      "peso": 0.20994035189209775
+    },
+    {
+      "columna": "Label_17_original_shape_Sphericity",
+      "label": 17,
+      "region": "Hipocampo izq.",
+      "descriptor": "Esfericidad",
+      "ajuste": {
+        "Edad": -0.0006032146793792806,
+        "Sexo_F": -0.0005311351917898384
+      },
+      "centro": 0.494420612513484,
+      "escala": 0.0294993749491414,
+      "peso": -0.7100425231396497
+    },
+    {
+      "columna": "Label_2015_original_shape_SurfaceVolumeRatio",
+      "label": 2015,
+      "region": "Temporal medio der.",
+      "descriptor": "Razón superficie/volumen",
+      "ajuste": {
+        "Edad": 0.0016386552231942271,
+        "Sexo_F": -0.004663645162962986
+      },
+      "centro": 0.8721503872345668,
+      "escala": 0.07151148635202975,
+      "peso": -0.021570055107600038
+    },
+    {
+      "columna": "Label_2025_original_shape_SurfaceVolumeRatio",
+      "label": 2025,
+      "region": "Precúneo der.",
+      "descriptor": "Razón superficie/volumen",
+      "ajuste": {
+        "Edad": 0.0027349505284826447,
+        "Sexo_F": -0.016089114417869723
+      },
+      "centro": 1.0406505140153564,
+      "escala": 0.11228477052355834,
+      "peso": 0.4992261604934391
+    },
+    {
+      "columna": "Label_53_original_shape_SurfaceVolumeRatio",
+      "label": 53,
+      "region": "Hipocampo der.",
+      "descriptor": "Razón superficie/volumen",
+      "ajuste": {
+        "Edad": 0.002455092906349411,
+        "Sexo_F": 0.01164333859565843
+      },
+      "centro": 0.6263021681924802,
+      "escala": 0.0699059662216508,
+      "peso": 1.3181832751805012
+    }
+  ]
+}

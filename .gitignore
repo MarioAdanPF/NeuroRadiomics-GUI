@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Entornos virtuales
+.venv/
+.venv-ui/
+.venv-backend/
+venv/
+
+# Datos y resultados: nunca se suben imágenes ni características de pacientes
+subjects/
+resultados/
+*.mgz
+*.nii
+*.nii.gz
+*.csv
+!FreeSurferColorLUT.csv
+
+# Flet
+build/
+storage/
+
+# WSL/Windows artifacts
+*:Zone.Identifier
+
+# OS
+.DS_Store

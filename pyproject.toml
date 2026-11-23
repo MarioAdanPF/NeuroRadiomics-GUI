@@ -1,0 +1,13 @@
+[project]
+name = "neuroradiomics-gui"
+version = "1.0.0"
+description = "Interfaz de escritorio para extraer características radiómicas de forma de RM cerebrales segmentadas con FreeSurfer y estimar la conversión de DCL a enfermedad de Alzheimer."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.14"
+# Las dependencias de cada entorno están en requirements-ui.txt (Python 3.14) y
+# requirements-backend.txt (Python 3.9, PyRadiomics)
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
