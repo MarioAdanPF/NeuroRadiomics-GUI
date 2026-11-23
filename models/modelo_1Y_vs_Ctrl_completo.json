@@ -129,7 +129,12 @@
       "media": 0.39215686274509803
     }
   ],
-  "rendimiento": {},
+  "rendimiento": {
+    "AUC": 0.861,
+    "Exactitud_Balanceada": 0.781,
+    "Sensibilidad": 0.784,
+    "Especificidad": 0.778
+  },
   "intercepto": 0.0059000581040274435,
   "variables": [
     {
